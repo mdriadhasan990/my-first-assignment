@@ -145,7 +145,7 @@ header nav button{
   max-width: 1140px;
   background-color: #FFFFFF;
   padding: 71px 150px;
-  margin: 0px 195px 127px 105px;
+  margin: 0px 195px 0px 105px;
 }
 .focus-section h2{
   font-size: 50px;
@@ -160,4 +160,46 @@ header nav button{
   width: 840px;
   border-radius: 48px;
   margin-top: 20px;
+}
+/* footer section styles */
+footer{
+  background-color:rgba(242, 237, 237, 1);
+ 
+}
+/* Touch section styles */
+.touch-section{
+  max-width: 1140px;
+  display: flex;
+  margin: 0px 150px 14px; 
+  padding: 71px 0px;
+  gap: 115px;
+}
+.touch-section h1{
+  font-size: 97px;
+  font-weight: 800px;
+}
+.touch-section label{
+display: block;
+font-size: 18px;
+margin-bottom: 10px;
+}
+#email , #text{
+  width: 497px;
+  height: 70px;
+  padding: 20px 32px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-bottom: 19px;
+}
+#text-massage{
+    padding: 20px 32px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 497px;
+  height: 135px;
+  margin-bottom: 19px;
+}
+.btn-secondary{
+  width: 497px;
+  height: 97px;
 }
