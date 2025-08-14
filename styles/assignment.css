@@ -10,6 +10,13 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+*{
+  margin: 0;
+  padding: 0;
+}
+main{
+  background-color:rgba(242, 237, 237, 1);
+}
 
 /* Nav styles  */
 header nav{
@@ -64,37 +71,24 @@ header nav button{
   display: flex;
   justify-content: space-between;
   padding: 115px 160px 140px;
+  max-width:1140px ;
+
 }
 
 /* Productive users section styles */
 .productive{
   text-align: center;
   padding:50px 80px;
-  margin: 116px 160px;
+  margin: 11px 160px;
   background-color: rgba(78, 71, 255, 0.1);
   border-radius: 24px;
-  height:306px;
-  width: 1140px ;
-
-  /* row-gap: none; */
-  margin: auto;
- /* margin-bottom: 0px; */
-  border: 3px solid green;
+  max-width:1140px ;
 }
 .users{
   gap: 158px;
   display: flex;
-  margin: 0px;
-   /* padding:50px 142px; */
-   
-   /* text-align: center; */
-   /* margin: auto; */
-    /* position: absolute;   */
-    /* align-content: center;  */
+  margin-top: 40px;
 } 
-.users-sec{
-  gap: none;
-}
 .number{
   color: #4E47FF;
   font-size: 80px;
@@ -109,6 +103,9 @@ header nav button{
 .challenge{
   margin:137px 142px 102px 158px;
   text-align: center;
+  max-width:1140px ;
+  /* gap: 50px; */
+  
 }
 .feedback{
   display: flex;
@@ -117,5 +114,50 @@ header nav button{
 .user-feedbach{
   display: block;
   border-radius: 14px;
-  
+  background-color: rgba(255, 255, 255, 0.5) ;
+  text-align: left;
+  padding: 24px;
+}
+.inside{
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+.user-feedbach img{
+  margin-bottom: 24px;
+}
+.action-title{
+   margin-bottom: 50px;
+}
+.section-title{
+  margin-bottom: 8px;
+}
+.img-name{
+  color: #757575;
+}
+.subtitle{
+  color: #B3B3B3;
+}
+
+/* Focus section style */
+.focus-section{
+  text-align: center;
+  max-width: 1140px;
+  background-color: #FFFFFF;
+  padding: 71px 150px;
+  margin: 0px 195px 127px 105px;
+}
+.focus-section h2{
+  font-size: 50px;
+  font-weight: 800px;
+  margin-bottom: 20px;
+}
+.focus-section p{
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+.focus-section img{
+  width: 840px;
+  border-radius: 48px;
+  margin-top: 20px;
 }
