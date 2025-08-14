@@ -69,27 +69,32 @@ header nav button{
 /* Productive users section styles */
 .productive{
   text-align: center;
-  padding:50px 142px;
+  padding:50px 80px;
   margin: 116px 160px;
   background-color: rgba(78, 71, 255, 0.1);
   border-radius: 24px;
   height:306px;
   width: 1140px ;
-  /* align-items: center; */
-  /* margin: auto; */
- 
+
+  /* row-gap: none; */
+  margin: auto;
+ /* margin-bottom: 0px; */
+  border: 3px solid green;
 }
 .users{
-   display: flex;
-   padding:50px 142px;
-   /* gap: 158px; */
-  /* border: 3px solid green;
-   text-align: center;
-   margin: auto;
-    position: absolute;  
-    align-content: center  ; */
-    
+  gap: 158px;
+  display: flex;
+  margin: 0px;
+   /* padding:50px 142px; */
+   
+   /* text-align: center; */
+   /* margin: auto; */
+    /* position: absolute;   */
+    /* align-content: center;  */
 } 
+.users-sec{
+  gap: none;
+}
 .number{
   color: #4E47FF;
   font-size: 80px;
@@ -98,4 +103,19 @@ header nav button{
 .title{
   font-size: 38px;
   font-weight: 800px;
+}
+
+/* usrs feedback section style */
+.challenge{
+  margin:137px 142px 102px 158px;
+  text-align: center;
+}
+.feedback{
+  display: flex;
+  gap: 20px;
+}
+.user-feedbach{
+  display: block;
+  border-radius: 14px;
+  
 }
