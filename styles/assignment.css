@@ -15,7 +15,7 @@
   padding: 0;
 }
 main{
-  background-color:rgba(242, 237, 237, 1);
+  background-color:rgba(242, 237, 237, .1);
 }
 
 /* Nav styles  */
@@ -64,7 +64,6 @@ header nav button{
 }
 .action-subtitle{
   font-size: 24px;
-  line-break:strict;
   
 }
 .action{
@@ -72,22 +71,27 @@ header nav button{
   justify-content: space-between;
   padding: 115px 160px 140px;
   max-width:1140px ;
+  gap: 250px;
+  margin:0px  160px 0px 140px;
 
 }
 
 /* Productive users section styles */
 .productive{
+  /* justify-content: center; */
   text-align: center;
   padding:50px 80px;
-  margin: 11px 160px;
+  /* margin: 11px 160px; */
   background-color: rgba(78, 71, 255, 0.1);
   border-radius: 24px;
   max-width:1140px ;
+  margin: 0px 160px 137px 140px;
 }
 .users{
   gap: 158px;
   display: flex;
   margin-top: 40px;
+  margin-left: 142px;
 } 
 .number{
   color: #4E47FF;
