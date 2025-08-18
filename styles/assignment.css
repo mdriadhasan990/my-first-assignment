@@ -15,7 +15,10 @@
   padding: 0;
 }
 main{
-  background-color:rgba(242, 237, 237, .1);
+  background-color: #F5F8FF;
+}
+body{
+  max-width: 1440px;
 }
 
 /* Nav styles  */
@@ -69,11 +72,13 @@ header nav button{
 .action{
   display: flex;
   justify-content: space-between;
-  padding: 115px 160px 140px;
+  padding: 116px 0px 120px 0;
   max-width:1140px ;
   gap: 250px;
   margin:0px  160px 0px 140px;
-
+}
+.action button{
+  margin-top: 23px;
 }
 
 /* Productive users section styles */
@@ -105,7 +110,7 @@ header nav button{
 
 /* usrs feedback section style */
 .challenge{
-  margin:137px 142px 102px 158px;
+  margin:133px 142px 141px 158px;
   text-align: center;
   max-width:1140px ;
   /* gap: 50px; */
@@ -165,22 +170,20 @@ header nav button{
   border-radius: 48px;
   margin-top: 20px;
 }
-/* footer section styles */
-footer{
-  background-color:rgba(242, 237, 237, 1);
- 
-}
+
 /* Touch section styles */
 .touch-section{
   max-width: 1140px;
   display: flex;
-  margin: 0px 150px 14px; 
+  margin: 88px 150px 14px; 
   padding: 71px 0px;
   gap: 115px;
 }
 .touch-section h1{
   font-size: 97px;
   font-weight: 800px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .touch-section label{
 display: block;
@@ -205,5 +208,31 @@ margin-bottom: 10px;
 }
 .btn-secondary{
   width: 497px;
-  height: 97px;
+  height: 62px;
+}
+
+  /* footer section styles */
+  footer{
+    text-align: center;
+    margin: 104px 455px;
+  }
+  footer section{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+  }
+.footer-logo{
+  font-size: 100px;
+  color: #4E47FF;
+  font-weight:bolder;
+  margin-bottom: 8px;
+
+}
+footer p,a{
+  color: #8987A1;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+footer div{
+  padding: 65px;
 }
