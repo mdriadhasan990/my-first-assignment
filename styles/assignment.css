@@ -56,8 +56,11 @@ header nav button{
   font-size: 16px;
   font-weight: 800px;
   border-style: none;
-  
-
+}
+.btn-primary:hover{
+  background-color: rgb(235, 206, 43);
+  color: rgb(0, 0, 0);
+  transform:scale(1.2);
 }
 
 /* Action styles */
@@ -154,7 +157,7 @@ header nav button{
   max-width: 1140px;
   background-color: #FFFFFF;
   padding: 71px 150px;
-  margin: 0px 195px 0px 105px;
+  margin: 0px 185px 0px 115px;
 }
 .focus-section h2{
   font-size: 50px;
@@ -219,7 +222,8 @@ margin-bottom: 10px;
   footer section{
     display: flex;
     gap: 48px;
-    align-items: center;
+    padding-left:65px ;
+    
   }
 .footer-logo{
   font-size: 100px;
@@ -232,7 +236,4 @@ footer p,a{
   color: #8987A1;
   text-decoration: none;
   margin-bottom: 20px;
-}
-footer div{
-  padding: 65px;
 }
